@@ -1,0 +1,114 @@
+* { border: dotted red 1px;}
+
+
+/* header */
+#main-bg { }
+
+#header-bg {background-color: #00f5d4; margin-top: -10px; }
+
+#profile-img {border-radius: 100%; height:45px; margin-top: 1px;} 
+
+#profile-name {line-height: 50px; text-align: center; padding: 0;}
+
+#search-bar {width: 90%; padding: 0 ; margin-top: 15px; height: 45%;}
+
+#searchicon-box {display: flex;}
+
+#search-icon {margin-top: 25px; height: 10%;}
+
+#icon-box {display: flex; justify-content: flex-end;}
+
+#icons {margin-top: 25px; margin-left: 30px ; margin-right: 20px ;height: 10%;}
+
+#logo {padding: 0;height:49px; width: auto; margin-left: -12px; }
+
+#logo-box {display: flex; justify-content: flex-start; padding: 0;}
+
+#ads1 { height: 100%; width: 105%; }
+
+#Toptrade-txt { margin-left: -30px; margin-top: 20px;}
+
+#body1 {margin-top: 70px;}
+
+#profile-body {border-radius: 100%; height: 55px;}
+
+#first-product-mainbox {display: flex;}
+
+#product1-box {margin-left: -10px; border: 5px double #2c2e2f; background-color: rgb(210, 205, 205);}
+
+#product1-body-box {display: flex; height: 60px; }
+
+#profile1-body-name { line-height: 50px; margin-left: 10px; font-weight: bold;}
+
+#product1-image {width: 100%; height: 150PX; border: solid rgb(245, 201, 201) 1px;}
+
+#product1-txt-box {display: flex; flex-direction: column;}
+
+#product1-txt-lead {font-weight: bold; font-size: 14px;}
+
+#product1-txt {font-size: 12px; margin-top: -20px;}
+
+#trade-buy-btn {display: flex; justify-content: center; margin-top: -15px;}
+
+#product1-trade-btn {margin-right: 15px; width: 60px;}
+
+#product1-buy-btn { width: 60px;}
+
+
+
+/* Header End */
+
+
+/* NAV BAR */
+#sidebar {position: absolute;
+    width: 10%;
+    height: 100%;
+    max-height: 100vh;
+    background: #22577a;
+    color: white;
+    left:-150px;
+    transition: .4s;
+    float: left;
+    top: 0;
+    bottom: 0;
+    }
+    
+    #sidebar.active{
+        left: 0;
+       
+    }
+    
+    #sidebar ul li {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 4px;
+    }
+    
+    #sidebar .toggle-btn {
+        position: absolute;
+        top:5px;
+        left: 160px;
+    
+    }
+    .toggle-btn span{
+        width: 50xpx;
+        height: 5px;
+        background: #000000;
+        display: block;
+        margin-top: 5px;
+    
+    }
+
+    #nav-color a {text-decoration: none;  }
+
+    #nav-home {margin-left: -20px;}
+
+    /* end nav bar */
+
+
+    @media screen and (max-width:600px) { * {padding: 0; margin: 0;}
+
+.logo {width: 30%;}
+
+    }
