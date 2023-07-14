@@ -1,62 +1,108 @@
 /* *{border: dotted 1px red;} */
-.maindiv{
+.main-body{
     max-width: fit-content;
     margin: auto;
-    margin-bottom: 20px;
 }
-/* .container{
-    margin: auto ;
-    width: 100%;
-    height: 100%;
-    padding-top: 10px;   
-} */
-.content{
+.head-div{
+    height: 70px;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: -12px;
+    border-radius: 10px;
+    background-color: #7fbfbf;
+}
+.cont1{
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
     display: inline-block;
-    width: 259px;
-    height: 250px;
-    margin: 10px;
-    border:1px solid;
-    border-color:antiquewhite;
-    transition: .3 ease;
 }
-.content:hover{
-    border: 1px solid;
-    border-color: red;
-    transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
+.cont2{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-left: 20px;
 }
-.image{
-    width: 50px;
-    height: 48px;
+.profile{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-}
-.contents{
-    width: 257px;
-    height: 200px;
-}
-.head{
-    border: 1px solid ;
-    width: 100%;
-    height: 100px;
-    background-color: #008080;
+    padding: 0;
     margin-top: 5px;
 }
-.txthead{
-    font-size: xx-large;
+#content{
+    height: 300px;
+}
+.image{
+    height: 150px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.text{
+    display: inline-block;
+    width: 215px;
+    margin-top: 40px;
+    font-family: graduate;
+    font-size:17px;
+}
+.text2{
+    display:inline-block;
+    width: 100px;
+    font-size:large;
+    font-family: graduate;
+    vertical-align:top;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.quantity{
+    height: 30px;
+    width: 130px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.buttons{
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.quant-num{
+    width: 60px;
     text-align: center;
-    color: white;
-    font-family: sans-serif;
-    line-height: 100px;
 }
-p, b{
-    font-family: sans-serif;
+#totalP{
+    margin-left: 4px;
 }
-.pointer {
-    cursor: pointer;
-    text-decoration: none;
+.css-button{
+	box-shadow: inset 1px 1px 0px 0px #cce5e5;
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+    vertical-align: top;
+    margin-top: 100px;
+    background: transparent;
+    
 }
-
+.css-button:hover {
+	background: #4ca6a6;
+}
+.buy{
+    margin-left: 755px;
+	box-shadow: inset 1px 1px 0px 0px #BBDAF7;
+    height: 60px;
+    width: 100px;
+    background: transparent;
+    margin-top: -20px;
+}
+.buy:hover{
+    background: #4ca6a6;
+}
+.shipping{
+    width: 300px;
+    font-size: small;
+    margin-left: 5px;
+}
 
 /* Jack */
 * {  box-sizing: border-box ;;}
@@ -265,54 +311,3 @@ p, b{
     #content-third-2nd-1 {width: 520px; margin-top: -10px; height: 280px; }
 
 /* Jack */
-
-/* FOoter */
-
-/* footer */
-#lower{
-    width: 108%; height: fit-content; background-color: black; margin-top: 0px;
-}
-#spacing{
-    width: 1202px; height: 30px; background-color: black;
-}
-#rr{
-  margin-left: 7px; padding-top: 2px; 
-}
-#firstgroup{
-   width: 150px; height: 130px; margin: 50px 50px 0px 130px; display: inline-block;
-}
-.pages1{
-   color: white; font-size: 13px; margin: 4px 0px 4px 0px;
-}
-#group23{
-   width: 150px; height: 130px; margin: 50px 30px 0px 30px; display: inline-block; vertical-align: top;
-}
-#group4{
-   width: 150px; height: 130px; margin: 50px 0px 0px 0px; display: inline-block; vertical-align: top;
-}
-#rt2{
-   background-color: gray; max-width: 100%; height: fit-content; background-color: black; 
-}
-#rt3{
-  margin-top: 5px;
-}
-#rt3a{
-   width: 20px; height: 20px; display: inline-block; 
-}
-#textrt{
-   font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#textrt1{
-   font-size: 13px; color: gray; vertical-align: top; display: inline-block; width: 550px; text-align: top; margin-left: 60px;
-}
-#TLogo{
-    width: 150px; height: 70px; margin-left: 120px;
-}
-#lower1{
-    text-align: center;
-}
-a:link {
-    text-decoration: none;
-}
-
-/* Footer */
