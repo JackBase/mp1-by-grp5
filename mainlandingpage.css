@@ -1,0 +1,526 @@
+* {  box-sizing: border-box ;}
+
+
+/* Start Page */
+#sign-up-btn {line-height: 50px; text-align: center; padding: 0; color: white; margin-left: 5px;}
+
+#log-in-btn {line-height: 50px; text-align: center; padding: 0; color: white;}
+
+#log-sign {display: flex;}
+
+
+/* New Header */
+
+#Head-navi { display: flex; width: 102%; height: 57px; margin-left: -12px; position: fixed; }
+
+#nav-bar {background-image: linear-gradient( #000, #008080);}
+
+/* NEW HEADER */
+
+
+
+/* header */
+#main-bg { font-family: sans-serif;}
+
+#header-bg {background-image: linear-gradient( #000, #008080); display: flex; justify-content: flex-end; width: 102%; height: 57px;  }
+
+#profile-img {border-radius: 100%; height:45px; margin-top: 1px;} 
+
+#profile-name {line-height: 50px; text-align: center; padding: 0; color: white;}
+
+#search-bar {width: 90%; padding: 0 ; margin-top: 15px; height: 40%;}
+
+#searchicon-box {display: flex;}
+
+#search-icon {margin-top: 20px; height: 7%;}
+
+#icon-box {display: flex; justify-content: flex-end; line-height: 50px;}
+
+
+#icons {margin-top: 30px; margin-left: 20px ; margin-right: 30px ;height: 10%;}
+
+#icons:hover {transform: scale(2); z-index: 2;}
+
+
+#icon-fb {display: flex;}
+
+#icons-1 {line-height: 30px; margin-left: 10px;}
+
+#logo {padding: 0;height:55px; width: auto; margin-left: -12px; }
+
+#logo-box {display: flex; justify-content: flex-start; padding: 0;}
+
+#space-color {background-color: rgb(255, 255, 255);}
+
+#fb { width: 40px; margin-top:42px; margin-left: -15px;}
+
+#follow-us {width: 130px; font-size: 15px ; font-weight: bold; margin-left: -10px; line-height: 30px; color: white;}
+
+#fbrow {display: flex; ; margin-left: 225px; }
+
+#spacing {}
+
+/* body */
+
+#ads-color {background-color:#008080 ; display: flex;height: 250px;  width: 102%;}
+
+#ads1 { height: 100%; width: 115%;}
+
+#image-ad {margin-top: 60px; }
+
+#image-ad:hover {transform: scale(1.2); z-index: 1;}
+
+#Toptrade-txt { margin-top: 20px; font-weight: 100px; color: rgb(0, 0, 0);background-color:#008080 } 
+
+#hot-items-text {text-align: center; font-size: 35px; font-weight: bolder; height: 50px; color: white; margin-bottom: 10px;}
+
+#body1 {margin-top: 70px;}
+
+#profile-body {border-radius: 100%; height: 55px;}
+
+#first-product-mainbox {display: flex;}
+
+#product1-box {margin: 0px 10px 0px 10px; border: solid #2c2e2f 1px; background-color: rgb(255, 255, 255);box-shadow: 0 0 2px 2px  rgba(0,0,0, .1);}
+
+
+
+#product1-box:hover {transform: scale(1.03); z-index: 1;}
+
+#product1-body-box {display: flex; height: 60px; background-color:#ffffff ;}
+
+#profile1-body-name { line-height: 50px; margin-left: 10px; font-weight: bold;}
+
+#product1-image {width: 100%; height: 150PX; border: solid rgb(245, 201, 201) 1px;}
+
+#product1-txt-box {display: flex; flex-direction: column;}
+
+#product1-txt-lead {font-weight: bold; font-size: 14px;background-color:#ffffff }
+
+#product1-txt {font-size: 12px; margin-top: -20px;background-color:#ffffff }
+
+#trade-buy-btn {display: flex; justify-content: center; margin-top: -15px;}
+
+#product1-trade-btn {margin-right: 15px; width: 60px;}
+
+#product1-buy-btn { width: 60px;}
+
+#bg-color {background-color:#008080 }
+
+#recently-add-text {text-align: center; font-size: 35px; font-weight: bolder; height: 50px; color: white; margin-bottom: 10px; background-color: #008080;}
+
+#recently-add-text { margin-top: 20px;font-weight: 100px; color: rgb(255, 255, 255);background-color:#008080;}
+
+
+#trending-prod {font-size: 28px; font-weight: bold; color: white;background-color: #008080;}
+
+#product-style{width: 300px; height: 100%;}
+
+#pro-box {box-shadow: 0 0 7px 2px  rgba(0,0,0, .1); display: flex; flex-direction: column;}
+
+#pro-box img {display: block; width: 100%; border-radius: 5px; }
+
+#pro-box:hover {transform: scale(1.03); z-index: 2;}
+
+/* Home */
+
+#home-main-bg { 
+    background-image: url(../Image/homepage/mainbgwithhand.jpg);
+    height: 1000px; 
+    width:100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    background-size: cover;
+}
+
+.outer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0,.5);
+}
+
+#home-logo {
+    height: 50px;
+}
+
+.header-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+
+}
+
+::placeholder {text-align: center; color: #008080;}
+
+#get-started-txt {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: #303030;
+    text-shadow: #0ce9e9;
+    
+}
+
+#first-prod-home {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    color:  #008080;
+}
+
+#ref-home {height: 445px;}
+    
+#see-more-home {color: black;text-align: end;}
+
+#buy-now-home {color: #008080;text-align: start;}
+
+#see-more-home:hover {transform: scale(1.03); color: #008080;}
+
+#buy-now-home:hover {transform: scale(1.03); color: #000000;}
+
+#ref-home:hover {transform: scale(1.03);}
+
+#greater-than {height: 35px;width: 80px; text-align: center;}
+
+#greater-than:hover {transform: scale(1.03);}
+
+#trend {border-left: solid 2px white;}
+
+#new {border-left: solid 2px white;}
+
+#trade-home {border-left: solid 2px white;}
+
+#login-home {border-left: solid 2px white;}
+
+#signup-home {border-left: solid 2px white;}
+
+#about-home {}
+
+#trend:hover {
+    transform: scale(1.03);  background-color: #008080; solid 2px #008080;
+    cursor: pointer; border-bottom: solid 2px #000000;
+}
+
+#new:hover {
+    transform: scale(1.03);  background-color: #008080; solid 2px #008080;
+    cursor: pointer;border-bottom: solid 2px #000000;
+}
+
+#trade-home:hover {
+    transform: scale(1.03); background-color: #008080; border-bottom: solid 2px #008080;
+    cursor: pointer;border-bottom: solid 2px #000000;
+}
+
+#login-home:hover {
+    transform: scale(1.03);  background-color: #008080; border-bottom: solid 2px #008080;
+    cursor: pointer;border-bottom: solid 2px #000000;
+}
+
+#signup-home:hover {
+    transform: scale(1.03);  background-color: #008080; solid 2px #008080;
+    cursor: pointer;border-bottom: solid 2px #000000;
+}
+#about-home:hover {
+    transform: scale(1.03);  background-color: #008080; solid 2px #008080;
+    cursor: pointer;border-bottom: solid 2px #000000;
+}
+
+
+
+#subs:hover {transform: scale(1.03); color: #008080;}
+
+#help-line {text-align: center; font-weight: 400; font-size: 18px; line-height: 60px; color: white;}
+
+#help-line:hover {transform: scale(1.03); color: #008080;}
+
+#trend-footer:hover {
+    transform: scale(1.03); color: #008080; 
+}
+
+#new-footer:hover {
+    transform: scale(1.03);  color: #008080; 
+}
+
+#trade-footer:hover {
+    transform: scale(1.03);  color: #008080; 
+}
+
+#login-footer:hover {
+    transform: scale(1.03); color: #008080; 
+}
+
+#signup-footer:hover {
+    transform: scale(1.03);color: #008080; 
+}
+#about-footer:hover {
+    transform: scale(1.03);  color: #008080; 
+}
+
+
+
+
+
+/* Header End */
+
+
+/* NAV BAR */
+#sidebar {position: absolute;
+    width: 158px;
+    height: 100%;
+    background: #113434;
+    color: white;
+    text-decoration: none;
+    left:-160px;
+    transition: .4s;
+    float: left;
+    top: 0;
+    bottom: 0;
+    }
+    
+    #sidebar.active{
+        left: 0;
+       
+    }
+    
+    #sidebar ul li {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 4px;
+        width: 128%;
+    }
+    
+    #sidebar .toggle-btn {
+        position: absolute;
+        top:5px;
+        left: 180px;
+    
+    }
+    .toggle-btn span{
+        width: 55px;
+        height: 5px;
+        background: #ffffff;
+        display: block;
+        margin-top: 5px;
+        
+    }
+
+    #nav-color {background-color: #113434 ; width: 144px; margin-left: -35px; text-align: start;}
+
+    #nav-color-space {height: 500px;background-color: #113434 ;margin-left: -35px;}
+    
+    #nav-home { list-style: none;
+        color: #fff;
+        font-size: 20px;
+        margin-left: -30px;
+        height: 100%;
+    }
+    a {text-decoration: none; color: white;}
+
+    a:hover {transform: scale(1.03); z-index: 2;}
+
+    /* end nav bar */
+
+    /* Starting PAGE */
+
+    #barter { margin-top: 10px; margin-left: -15px; height: 500PX;}
+
+    #side-content-homepage {background-color: #f9fafa; height: 550PX; margin-top: 10PX; width: 330px; color: white; font-size: 25px; padding: 5px;}
+
+    #side-content-homepage-spacing {margin-bottom: 10px;}
+    
+    #second-content-homepage {margin-top: 130px; margin-left: 265px; width: ; display: flex;}
+
+    #content-third {width: 650px; height: 600px; margin-left: -60px;}
+
+    #content-third-text {width: 650px;margin-left: -60px;}
+
+    #content-third-2nd {width: 600px; margin-top: -20px; margin-left: -30px; height: 280px; }
+
+    #content-third-text-1 {width: 530px;}
+
+    #content-third-2nd-1 {width: 520px; margin-top: -10px; height: 280px; }
+
+    #barterbg {
+        background-image:url(laragon/www/MP1/Image/homepage/barter.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* CHAT PAGE */
+
+
+/* Seller page */
+
+.be-a-seller-txt{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #000000;
+    text-shadow: #000;
+    text
+    ;
+}
+
+#container-seller {
+    
+}
+
+.seller-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+
+/* Seller Page */
+
+
+
+/* Footer */
+
+/* footer */
+#lower{
+    width: 108%; height: fit-content; background-color: black; margin-top: 0px;
+}
+#spacing{
+    width: 1202px; height: 30px; background-color: black;
+}
+#rr{
+  margin-left: 7px; padding-top: 2px; 
+}
+#firstgroup{
+   width: 150px; height: 130px; margin: 50px 50px 0px 130px; display: inline-block;
+}
+.pages1{
+   color: white; font-size: 13px; margin: 4px 0px 4px 0px;
+}
+#group23{
+   width: 150px; height: 130px; margin: 50px 30px 0px 30px; display: inline-block; vertical-align: top;
+}
+#group4{
+   width: 150px; height: 130px; margin: 50px 0px 0px 0px; display: inline-block; vertical-align: top;
+}
+#rt2{
+   background-color: gray; max-width: 100%; height: fit-content; background-color: black; 
+}
+#rt3{
+  margin-top: 5px;
+}
+#rt3a{
+   width: 20px; height: 20px; display: inline-block; 
+}
+#textrt{
+   font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#textrt1{
+   font-size: 13px; color: gray; vertical-align: top; display: inline-block; width: 550px; text-align: top; margin-left: 60px;
+}
+#TLogo{
+    width: 150px; height: 70px; margin-left: 120px;
+}
+#lower1{
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+
+/* Footer */
+
+
+
+    @media (max-width:620px) 
+{
+
+#Head-navi {display: flex; ;width: 100%; height: 40px;}
+
+
+#nav-bar {width: 0%; height: 60px;}
+
+#header-bg {display:flex; justify-content: flex-end; width: 625px;}
+
+#sidebar {width: 5%;}
+
+#logo-box {max-width: 100%; height: 50PX; margin-left: -50PX; }
+
+#logo {height: 30px; margin-top: 15px;}
+
+#follow-us {font-size: clamp(0.3125rem, -0.3906rem + 2.25vw, 0.875rem); margin-left: -10px ; width: 50px; display: block;}
+
+
+
+#icon-fb {width: 130px; height: 20px; display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+
+#follow-us #icons  #icon-box {display: inline-block;}
+
+#icons {margin: 25px 5px 0 0;}
+
+#profile-name {font-size: clamp(0.3125rem, -0.3906rem + 2.25vw, 0.875rem);}
+
+#profile-img { height: 30px; margin-top: 10px;}
+
+#search-bar {height: 20px; font-size: clamp(0.3125rem, -0.3906rem + 2.25vw, 0.875rem);}
+
+#ads-color {display: flex; width: 105%; height: 100PX; margin-top: 55px;}
+
+#ads1 {max-width: 150%;}
+
+#image-ad { max-width: 120%; height:; margin: 0 0 0px 0;}
+
+#head-space {width: 0px;}
+
+#sidebar ul li {font-size: clamp(0.3125rem, -0.3906rem + 2.25vw, 0.875rem);}
+
+#sidebar .toggle-btn {position: absolute;top:5px;; margin-top: 10px;}
+
+.toggle-btn span {width: 30px; margin-top: 5px;  height: 3px;}
+
+#nav-color {background-color: #22577a ; width: 36px; ; text-align: start;}
+
+#nav-color-space {height: 500px;background-color: #22577a;width: 36px;}
+
+#nav-home { list-style: none;color: #fff;font-size: 20px;width: 36px;;
+    height: 100%;
+}
+
+/* BODY */
+
+#Toptrade-txt { margin-top: 20px; font-weight: 100px; color: rgb(0, 0, 0);background-color:#008080 ; height: 35px; } 
+
+#hot-items-text {font-size: clamp(1.25rem, 0.0781rem + 3.75vw, 2.1875rem);}
+
+#product1-box { width:350px; height: 200px; margin-bottom: 15px;}
+
+#product1-body-box {width: 300px; height: 100px; margin-left: 0px;}
+
+#profile1-body-name {font-size: clamp(0.9375rem, 0.1563rem + 2.5vw, 1.5625rem); word-wrap: normal;}
+
+#profile-body {height: 60px; margin:  2px 0 0 0px;}
+
+#product1-image {height: 150px; margin-top: -30px;}
+
+#product1-txt-lead {font-size: clamp(0.9375rem, 0.1563rem + 2.5vw, 1.5625rem); font-weight: bolder;}
+
+#product1-txt {font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);}
+}
+
+
+
+/* Footer */
+
+
+
+/* Footer */
+
+
