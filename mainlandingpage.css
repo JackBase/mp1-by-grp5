@@ -124,7 +124,7 @@
 /* Home */
 
 #home-main-bg { 
-    background-image: url(../Image/homepage/mainbgwithhand.jpg);
+    background-image: url(mainbgwithhand.jpg);
     height: 1000px; 
     width:100%;
     background-repeat: no-repeat;
